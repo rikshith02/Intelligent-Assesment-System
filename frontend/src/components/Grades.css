@@ -1,0 +1,123 @@
+.grades-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.grades-heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333333;
+  text-align: center;
+}
+
+.grades-table {
+  width: 100%;
+  margin: 20px auto;
+  margin-top: 20px;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.grades-table th,
+.grades-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.grades-table th {
+  background-color: salmon;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.grades-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.grades-table tbody tr:hover {
+  background-color: #e6e6e6;
+}
+
+.grades-table td:first-child {
+  font-weight: bold;
+}
+
+.grades-table td[data-percentage] {
+  position: relative;
+}
+
+.grades-table td[data-percentage]::before {
+  display: inline-block;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grades-table td[data-percentage="easy"] {
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+.grades-table td[data-percentage="medium"] {
+  background-color: rgba(255, 255, 0, 0.1);
+}
+
+.grades-table td[data-percentage="hard"] {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.grades-table td .icon-check,
+.grades-table td .icon-cross {
+  display: none;
+}
+
+
+.topic-button {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.topic-button:hover {
+  background-color: #f2f2f2;
+}
+
+.topic-button:focus {
+  outline: none;
+}
+
+.sub-table td {
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.sub-table tr.strong td {
+  background-color: rgba(0, 255, 0, 0.1);
+}
+
+.sub-table tr.average td {
+  background-color: rgba(255, 255, 0, 0.1);
+}
+
+.sub-table tr.weak td {
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+
+
+

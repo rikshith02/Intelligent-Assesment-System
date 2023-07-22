@@ -1,0 +1,101 @@
+.user-container {
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .user-table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-table th,
+  .user-table td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .user-table th {
+    background-color: #4CAF50; /* Green */
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .user-table tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  
+  .user-table tbody tr:hover {
+    background-color: #e9e9e9;
+    cursor: pointer;
+  }
+  
+  .user-table th:first-child,
+  .user-table td:first-child {
+    width: 40%;
+  }
+  
+  .user-table th:last-child,
+  .user-table td:last-child {
+    width: 20%;
+  }
+  
+  .user-container h2 {
+    color: #4CAF50; /* Green */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .user-container p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .user-container .user-icon {
+    color: #4CAF50; /* Green */
+    font-size: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  .user-container .user-column-name {
+    color: #333;
+  }
+  
+  .user-container .user-table-header {
+    background-color: #4CAF50; /* Green */
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .user-container .user-table-header:hover {
+    background-color: #45a049; /* Darker Green */
+    cursor: pointer;
+  }
+  
+  .user-container .user-link {
+    color: #4CAF50; /* Green */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .user-container .user-link:hover {
+    color: #45a049; /* Darker Green */
+  }
+  
+  .user-container .user-link:visited {
+    color: #4CAF50; /* Green */
+  }
+  
+  .user-container .error-message {
+    color: #f44336;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  

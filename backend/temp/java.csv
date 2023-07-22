@@ -1,0 +1,130 @@
+﻿Topic,Difficulty,Question,Answer
+Java Basics,Easy,What is Java?,"Java is a high-level, class-based, object-oriented programming language."
+Java Basics,Easy,What is the difference between JDK and JRE?,"JDK (Java Development Kit) is a software development kit, whereas JRE (Java Runtime Environment) is a runtime environment."
+Java Basics,Easy,What is a class in Java?,A class is a blueprint for creating objects in Java.
+Java Basics,Easy,What is the difference between a constructor and a method?,"A constructor is used to create an object of a class, whereas a method is used to perform a specific task."
+Java Basics,Easy,What is an object in Java?,An object is an instance of a class.
+Java Basics,Medium,What is the difference between a checked and an unchecked exception in Java?,"A checked exception is checked at compile-time, whereas an unchecked exception is checked at runtime."
+Java Basics,Medium,What is a package in Java?,A package is a namespace that organizes a set of related classes and interfaces.
+Java Basics,Medium,What is the difference between equals() and == in Java?,"equals() is a method used to compare the content of two objects, whereas == is used to compare the memory location of two objects."
+Java Basics,Medium,What is the difference between static and non-static methods in Java?,"A static method belongs to a class, whereas a non-static method belongs to an object of a class."
+Java Basics,Medium,What is the difference between StringBuffer and StringBuilder in Java?,"StringBuffer is thread-safe, whereas StringBuilder is not thread-safe."
+Java Basics,Hard,What is the difference between composition and inheritance in Java?,"Inheritance is an ""is-a"" relationship, whereas composition is a ""has-a"" relationship."
+Java Basics,Hard,"What is the difference between final, finally, and finalize in Java?","final is used to declare a constant, finally is used to execute a block of code regardless of an exception, and finalize() is a method called by the garbage collector to clean up memory."
+Data Types,Easy,What is a primitive data type in Java?,"A primitive data type is a basic data type, such as int, double, and boolean."
+Data Types,Easy,What is a reference data type in Java?,"A reference data type is a data type that refers to an object in memory, such as String and arrays."
+Data Types,Easy,What is autoboxing and unboxing in Java?,"Autoboxing is the automatic conversion of a primitive data type to its corresponding wrapper class, whereas unboxing is the automatic conversion of a wrapper class to its corresponding primitive data type."
+Data Types,Easy,What is the difference between float and double in Java?,"float is a single-precision floating-point data type, whereas double is a double-precision floating-point data type."
+Data Types,Easy,What is the default value of an int in Java?,0
+Data Types,Medium,What is a variable in Java?,A variable is a name given to a memory location in Java.
+Data Types,Medium,What is the difference between a local variable and an instance variable in Java?,"A local variable is declared inside a method or block, whereas an instance variable is declared inside a class but outside a method."
+Data Types,Medium,What is typecasting in Java?,Typecasting is the conversion of one data type to another in Java.
+Data Types,Medium,What is the difference between == and equals() for objects in Java?,"== compares the memory location of two objects, whereas equals() compares the content of two objects."
+Data Types,Medium,What is the difference between a shallow copy and a deep copy in Java?,"A shallow copy creates a new object with a reference to the original object, whereas a deep copy creates a new object with a new set of fields."
+Data Types,Hard,What is a volatile variable in Java?,"A volatile variable is a variable whose value is always read from the main memory and not from the cache memory, and whose value is always written to the main memory and not to the cache memory."
+Control Flow,Easy,What is a conditional statement in Java?,A conditional statement is a control structure that allows the program to make a decision based on a condition.
+Control Flow,Easy,What is the difference between if and if-else statements in Java?,"if statements execute a block of code if the condition is true, whereas if-else statements execute one block of code if the condition is true and another block of code if the condition is false."
+Control Flow,Easy,What is the difference between logical AND and bitwise AND in Java?,"Logical AND (&&) is a conditional operator that returns true if both operands are true, whereas bitwise AND (&) is a bitwise operator that performs a bitwise AND operation on two operands."
+Control Flow,Easy,What is the ternary operator in Java?,The ternary operator is a conditional operator that takes three operands and returns one of two values based on the condition.
+Control Flow,Easy,What is short-circuit evaluation in Java?,Short-circuit evaluation is a mechanism used by logical operators to avoid evaluating an expression if the result can be determined
+Control Flow,Medium,What is a switch statement in Java?,A switch statement is a control structure that allows the program to evaluate a variable or expression and execute different blocks of code based on the value of the variable or expression.
+Control Flow,Medium,What is a for loop in Java?,A for loop is a control structure that allows the program to execute a block of code repeatedly based on a condition.
+Control Flow,Medium,What is a while loop in Java?,A while loop is a control structure that allows the program to execute a block of code repeatedly as long as a condition is true.
+Control Flow,Medium,What is a do-while loop in Java?,"A do-while loop is a control structure that allows the program to execute a block of code repeatedly at least once, and then repeatedly as long as a condition is true."
+Control Flow,Medium,What is a break statement in Java?,A break statement is a control statement that terminates the current loop or switch statement and transfers the program control to the statement following the terminated loop or switch statement.
+Control Flow,Medium,What is a continue statement in Java?,A continue statement is a control statement that skips the remaining statements in the current loop iteration and continues with the next iteration of the loop.
+Control Flow,Hard,What is a label in Java?,"A label is an identifier that is used to mark a statement in Java code, and can be used as the target of a break or continue statement."
+Arrays,Easy,What is an array in Java?,"An array is a collection of elements of the same data type, stored in a contiguous memory location."
+Arrays,Easy,What is the difference between an array and an ArrayList in Java?,"An array is a fixed-size data structure, whereas an ArrayList is a dynamic-size data structure."
+Arrays,Easy,How do you declare an array in Java?,int[] myArray = new int[5];
+Arrays,Easy,What is the length of an array in Java?,"The length of an array is the number of elements it contains, which is accessed using the length field."
+Arrays,Easy,How do you access an element in an array in Java?,int x = myArray[2];
+Arrays,Medium,How do you initialize an array in Java?,"int[] myArray = {1, 2, 3, 4, 5};"
+Arrays,Medium,What is a multidimensional array in Java?,"A multidimensional array is an array of arrays, where each element in the array is itself an array."
+Arrays,Medium,How do you iterate over an array in Java?,for (int i = 0; i < myArray.length; i++) { ... }
+Arrays,Hard,What is the difference between deep and shallow copying of arrays in Java?,"Shallow copying copies only the reference to the array, whereas deep copying creates a new array with a new set of fields."
+Strings,Easy,What is a String in Java?,"A String is a sequence of characters in Java, stored as an object."
+Strings,Easy,How do you declare a String in Java?,"String myString = ""Hello, world!"";"
+Strings,Easy,What is the length of a String in Java?,"The length of a String is the number of characters it contains, which is accessed using the length() method."
+Strings,Easy,How do you concatenate two Strings in Java?,String concatenatedString = string1 + string2;
+Strings,Easy,How do you compare two Strings in Java?,boolean result = string1.equals(string2);
+Strings,Easy,How do you convert a String to an integer in Java?,int myInt = Integer.parseInt(myString);
+Strings,Medium,How do you split a String in Java?,String[] parts = myString.split(delimiter);
+Strings,Medium,How do you convert a String to all uppercase in Java?,String upperCaseString = myString.toUpperCase();
+Strings,Medium,How do you remove leading and trailing whitespace from a String in Java?,String trimmedString = myString.trim();
+Strings,Medium,What is a StringBuilder in Java?,"A StringBuilder is a mutable sequence of characters in Java, used to create and manipulate Strings efficiently."
+Strings,Hard,"What is the difference between String, StringBuffer, and StringBuilder in Java?","String is immutable, StringBuffer is mutable and synchronized, and StringBuilder is mutable and not synchronized."
+Exception Handling,Easy,What is an exception in Java?,An exception is an error that occurs during program execution that disrupts the normal flow of execution.
+Exception Handling,Easy,How do you handle exceptions in Java?,Exceptions can be handled using try-catch blocks or by declaring them in the method signature using the throws keyword.
+Exception Handling,Easy,What is the difference between checked and unchecked exceptions in Java?,"Checked exceptions are checked at compile time, whereas unchecked exceptions are not checked at compile time."
+Exception Handling,Medium,What is the difference between the finally and the finalize block in Java?,"The finally block is used to execute code that needs to be executed regardless of whether an exception is thrown or not, whereas the finalize block is used to perform finalization on an object before it is garbage collected."
+Exception Handling,Medium,What is the difference between throw and throws in Java?,"throw is used to throw an exception in a method, whereas throws is used to declare that a method may throw an exception."
+Exception Handling,Hard,What is the difference between Error and Exception in Java?,"Errors are serious problems that cannot be handled by the program, whereas Exceptions are problems that can be handled by the program."
+OOP,Easy,What is object-oriented programming (OOP) in Java?,"OOP is a programming paradigm that focuses on objects and their interactions, and encapsulates data and behavior into objects."
+OOP,Easy,What is a class in Java?,"A class is a blueprint for creating objects in Java, and defines the data and behavior of those objects."
+OOP,Easy,What is an object in Java?,"An object is an instance of a class in Java, and has its own set of fields"
+OOP,Easy,What is inheritance in Java?,Inheritance is a mechanism in Java that allows one class to inherit the properties and methods of another class.
+OOP,Easy,What is polymorphism in Java?,Polymorphism is a concept in Java that allows objects of different classes to be treated as if they are objects of the same class.
+OOP,Easy,What is encapsulation in Java?,"Encapsulation is a concept in Java that involves wrapping data and behavior into a single unit, and hiding the implementation details from the outside world."
+OOP,Easy,What is abstraction in Java?,"Abstraction is a concept in Java that involves defining a simplified interface for a complex system, and hiding the implementation details from the user."
+OOP,Easy,What is a constructor in Java?,A constructor is a special method in Java that is used to initialize objects of a class.
+OOP,Medium,What is the difference between method overloading and method overriding in Java?,"Method overloading involves creating multiple methods with the same name in the same class, but with different parameters, whereas method overriding involves creating a method with the same name and parameters as a method in a parent class, but with different behavior."
+OOP,Medium,What is the difference between composition and inheritance in Java?,"Composition involves creating objects of one class within another class, whereas inheritance involves creating a subclass that inherits properties and methods from a superclass."
+OOP,Medium,What is an abstract class in Java?,"An abstract class is a class in Java that cannot be instantiated, and is used as a base class for other classes to inherit from."
+OOP,Medium,What is an interface in Java?,"An interface is a collection of abstract methods and constants that can be implemented by classes in Java, and is used to define a contract for classes to follow."
+OOP,Hard,What is the diamond problem in Java?,"The diamond problem is a problem that can arise in multiple inheritance scenarios in Java, where two or more parent classes of a class define the same method or field, causing ambiguity."
+Collections,Easy,What is a Collection in Java?,"A Collection is a group of objects in Java, and is used to represent and manipulate groups of objects."
+Collections,Easy,What is the difference between a List and a Set in Java?,"A List is an ordered collection of elements in Java, whereas a Set is an unordered collection of elements in Java."
+Collections,Easy,What is the difference between an ArrayList and a LinkedList in Java?,"An ArrayList is a resizable array in Java, whereas a LinkedList is a linked list in Java, and is more efficient for inserting and deleting elements in the middle of a list."
+Collections,Easy,What is the difference between a HashSet and a TreeSet in Java?,"A HashSet is an unordered set in Java, whereas a TreeSet is an ordered set in Java, and is implemented using a binary search tree."
+Collections,Medium,What is a Map in Java?,"A Map is a collection of key-value pairs in Java, and is used to represent and manipulate mappings between keys and values."
+Collections,Medium,What is the difference between a TreeMap and a LinkedHashMap in Java?,"A TreeMap is a sorted map in Java, whereas a LinkedHashMap is an ordered map in Java, and maintains the order of elements based on insertion order or access order."
+Collections,Medium,What is the difference between a HashMap and a ConcurrentHashMap in Java?,"A HashMap is not thread-safe, whereas a ConcurrentHashMap is thread-safe in Java, and allows multiple threads to access the map concurrently."
+Collections,Medium,What is the difference between fail-fast and fail-safe iterators in Java?,"Fail-fast iterators in Java throw a ConcurrentModificationException if the underlying collection is modified during iteration, whereas fail-safe iterators in Java create a copy of the collection and iterate over the copy instead."
+Collections,Hard,What is the difference between a Hashtable and a HashMap in Java?,"A Hashtable is synchronized and thread-safe in Java, whereas a HashMap is not synchronized and not thread-safe in Java."
+Multithreading,Easy,What is a thread in Java?,A thread is a lightweight process in Java that allows multiple tasks to be executed concurrently within the same program.
+Multithreading,Easy,What is synchronization in Java?,"Synchronization is a mechanism in Java that is used to control access to shared resources by multiple threads, and ensures that only one thread can access a resource at a time."
+Multithreading,Easy,What is the difference between a thread and a process in Java?,"A thread is a lightweight process in Java that runs within a process, whereas a process is a separate instance of a program that runs independently."
+Multithreading,Easy,What is the difference between wait() and sleep() in Java?,"wait() is a method in Java that is used to suspend the execution of a thread until another thread notifies it, whereas sleep() is a method in Java that is used to suspend the execution of a thread for a specified amount of time."
+Multithreading,Medium,What is the difference between a mutex and a semaphore in Java?,"A mutex is a synchronization primitive in Java that is used to protect shared resources by allowing only one thread to access the resource at a time, whereas a semaphore is a synchronization primitive in Java that is used to control access to a limited number of resources by multiple threads."
+Multithreading,Medium,What is a deadlock in Java?,"A deadlock in Java occurs when two or more threads are blocked, waiting for each other to release resources that they hold, resulting in a circular waiting chain that cannot be broken."
+Multithreading,Medium,What is a race condition in Java?,"A race condition in Java occurs when two or more threads access a shared resource concurrently, and the final outcome of the program depends on the order of execution of the threads."
+Multithreading,Hard,What is the difference between a Thread and a Runnable in Java?,"A Thread is a class in Java that represents a thread of execution, whereas a Runnable is an interface in Java that represents a task that can be executed by a thread."
+Networking,Easy,What is a socket in Java?,"A socket is an endpoint in Java that is used for communication between two processes over a network, and consists of an IP address and a port number."
+Networking,Easy,What is a client socket in Java?,"A client socket is a socket in Java that is used by a client to connect to a server socket, and consists of a local IP address and port number, and a remote IP address and port number."
+Networking,Easy,What is a URL in Java?,"A URL is a Uniform Resource Locator in Java that is used to identify a resource on the internet, and consists of a protocol, host name, and path."
+Networking,Easy,What is a URI in Java?,"A URI is a Uniform Resource Identifier in Java that is used to identify a resource on the internet, and consists of a scheme, authority, and path."
+Networking,Medium,What is the difference between TCP and UDP in Java?,"TCP (Transmission Control Protocol) is a reliable protocol in Java that guarantees delivery of packets and provides error detection and correction, whereas UDP (User Datagram Protocol) is an unreliable protocol in Java that does not guarantee delivery of packets or provide error detection and correction."
+Networking,Medium,What is the difference between a socket and a port in Java?,"A socket is an endpoint in Java that is used for communication between two processes over a network, whereas a port is a numeric identifier in Java that is used to identify a specific process or service on a computer."
+Networking,Medium,What is the difference between a URL and a URI in Java?,"A URL is a type of URI in Java that identifies the location of a resource on the internet, whereas a URI is a generic identifier in Java that can identify any type of resource, including local files and network resources."
+Networking,Hard,What is the difference between a server and a client in Java?,"A server is a program in Java that provides services to clients over a network, whereas a client is a program in Java that requests services from a server over a network."
+JDBC,Easy,What is JDBC in Java?,"JDBC (Java Database Connectivity) is a Java API that is used to connect to and manipulate databases, and provides a standard interface for accessing relational databases."
+JDBC,Easy,What is a JDBC driver in Java?,"A JDBC driver in Java is a software component that provides an implementation of the JDBC API, and translates JDBC calls into the protocol required by a specific database management system."
+JDBC,Easy,What is a connection pool in Java?,"A connection pool in Java is a cache of database connections that can be reused by multiple threads in a Java program, and reduces the overhead of creating and closing database connections."
+JDBC,Medium,What is the difference between a Statement and a PreparedStatement in Java?,"A Statement in Java is used to execute a single SQL statement, whereas a PreparedStatement in Java is used to execute a parameterized SQL statement, and provides better performance and security."
+JDBC,Medium,What is the difference between the JDBC and the ODBC API in Java?,"The JDBC API in Java is designed specifically for Java applications, whereas the ODBC (Open Database Connectivity) API is a generic API for accessing databases that can be used by any programming language."
+JDBC,Hard,What is the difference between a transaction and a batch in JDBC?,"A transaction in JDBC is a sequence of database operations that are executed as a single unit of work,"
+Serialization,Easy,What is serialization in Java?,"Serialization in Java is the process of converting an object into a stream of bytes so that it can be saved to a file, sent over a network, or stored in a database."
+Serialization,Easy,What is deserialization in Java?,Deserialization in Java is the process of converting a stream of bytes back into an object.
+Serialization,Easy,What is the Serializable interface in Java?,The Serializable interface in Java is a marker interface that is used to indicate that a class can be serialized.
+Serialization,Medium,What is the Externalizable interface in Java?,The Externalizable interface in Java is an interface that extends the Serializable interface and provides a way for a class to customize the serialization and deserialization process.
+Serialization,Medium,What is the difference between serialization and externalization in Java?,"Serialization in Java is a default mechanism that saves the entire object state, whereas externalization in Java allows for customized serialization and deserialization of object states by implementing the Externalizable interface."
+Serialization,Medium,What is the serialVersionUID in Java?,The serialVersionUID in Java is a version identifier that is used to ensure compatibility of serialized objects across different versions of the same class.
+Serialization,Hard,What are the rules for serialization and deserialization in Java?,"The rules for serialization and deserialization in Java include that all non-transient fields of a serializable class will be serialized, and all fields marked as transient will not be serialized."
+Concurrency,Easy,What is concurrency in Java?,"Concurrency in Java is the ability of a program to perform multiple tasks simultaneously, and is achieved using threads."
+Concurrency,Easy,What is a thread in Java?,A thread in Java is a lightweight unit of execution that allows for concurrent execution of multiple tasks within a program.
+Concurrency,Easy,What is a race condition in Java?,"A race condition in Java is a condition that occurs when two or more threads access a shared resource in an unpredictable order, resulting in incorrect behavior or data corruption."
+Concurrency,Medium,What is the synchronized keyword in Java?,"The synchronized keyword in Java is used to prevent multiple threads from simultaneously accessing a shared resource, and ensures that only one thread at a time can execute a synchronized block of code."
+Concurrency,Medium,What is the volatile keyword in Java?,"The volatile keyword in Java is used to indicate that a variable's value may be modified by multiple threads, and ensures that the variable's value is always read from and written to main memory, rather than from a thread's local cache."
+Concurrency,Hard,What is a deadlock in Java?,"A deadlock in Java is a situation where two or more threads are waiting for each other to release a resource that they need, resulting in a state where none of the threads can make progress."
+Generics,Easy,What are generics in Java?,"Generics in Java are a way to parameterize types, and allow classes and methods to be more flexible and reusable."
+Generics,Easy,What is the difference between a raw type and a parameterized type in Java?,"A raw type in Java is a type that does not use generics, while a parameterized type is a type that uses generics to specify a type parameter."
+Generics,Easy,What is type erasure in Java?,"Type erasure in Java is the process by which the compiler replaces type parameters with their upper bounds or Object, and removes all generic type information at compile time."
+Generics,Medium,What is the difference between an unbounded wildcard and a bounded wildcard in Java?,"An unbounded wildcard in Java is denoted by the ? symbol and represents an unknown type, while a bounded wildcard is denoted by ? followed by a type bound, and restricts the types that can be used as arguments."
+Generics,Medium,What is a type parameter in Java?,"A type parameter in Java is a placeholder for a type that is specified at runtime, and allows classes and methods to be generic."
+Generics,Medium,What is the difference between a class and a interface in Java?,"A class in Java can have state and behavior, while an interface in Java only defines behavior."
+Streams,Easy,What is a stream in Java?,A stream in Java is a sequence of elements that can be processed in parallel or sequentially.
+Streams,Easy,What is the difference between intermediate and terminal operations in Java streams?,"Intermediate operations in Java streams are operations that transform a stream into another stream, while terminal operations are operations that produce a result or a side-effect, and terminate the stream."
+Streams,Easy,What is the difference between a parallel stream and a sequential stream in Java?,"A parallel stream in Java allows for parallel processing of elements, while a sequential stream processes elements sequentially."
+Streams,Medium,What is the reduce() method in Java streams?,"The reduce() method in Java streams is a terminal operation that performs a reduction operation on the elements of a stream, and produces a single result."
+Streams,Medium,What is the difference between findFirst() and findAny() in Java streams?,"The findFirst() method in Java streams returns the first element of a stream, while the findAny() method returns any element of a stream, and is useful for parallel"

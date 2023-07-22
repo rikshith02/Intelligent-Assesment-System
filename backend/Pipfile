@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+motor = "*"
+uvicorn = "*"
+pymongo = "*"
+cors = "*"
+passlib = "*"
+bcrypt = "*"
+python-jose = "*"
+redis = "*"
+pyjwt = "*"
+scikit-learn = "*"
+python-multipart = "*"
+transformers = "*"
+torch = "*"
+pydantic = "*"
+tensorflow = "*"
+sentence-transformers = "*"
+spacy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

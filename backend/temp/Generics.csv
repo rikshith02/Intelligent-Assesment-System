@@ -1,0 +1,120 @@
+﻿Topic,Difficulty,Question,Answer
+Generics,Easy,What are Generics in Java?,Generics in Java are a way to create reusable code that works with different types.
+Generics,Easy,What is the purpose of Generics in Java?,The purpose of Generics in Java is to provide type safety and enable code reuse.
+Generics,Easy,What is a Generic Class in Java?,A Generic Class in Java is a class that can operate on different types specified by type parameters.
+Generics,Easy,What is a Type Parameter in Java Generics?,A Type Parameter in Java Generics is a placeholder for a type that is specified when using generic classes or interfaces.
+Generics,Easy,What is a Parameterized Type in Java Generics?,A Parameterized Type in Java Generics is an instantiation of a generic class or interface with specific type arguments.
+Generics,Easy,What is a Generic Interface in Java?,A Generic Interface in Java is an interface that can be parameterized with different types when implemented.
+Generics,Easy,What is the difference between Generics and Object in Java?,"Generics provide compile-time type safety, whereas Object allows any type at runtime without type checking."
+Generics,Easy,What is the difference between a Generic Class and a Parameterized Type in Java?,"A Generic Class is a class template with type parameters, while a Parameterized Type is an instance of a generic class with specific type arguments."
+Generics,Easy,What is the difference between a Raw Type and a Parameterized Type in Java Generics?,"A Raw Type is a generic type used without type parameters, while a Parameterized Type is a generic type with specific type arguments."
+Generics,Easy,What is a Generic Type Parameter in Java?,A Generic Type Parameter in Java is a placeholder for a type that is defined when using generic classes or interfaces.
+Generics,Easy,What is a Type Erasure in Java Generics?,Type Erasure is the process of removing type parameters and replacing them with their upper bounds or Object during compilation.
+Generics,Easy,What is a Type Parameter Bounds in Java Generics?,Type Parameter Bounds in Java Generics define restrictions on the types that can be used as type arguments for a generic class or interface.
+Generics,Easy,What is a Multiple Type Parameter in Java Generics?,A Multiple Type Parameter in Java Generics is a situation where a generic class or interface has more than one type parameter.
+Generics,Easy,What is an Unbounded Type Parameter in Java Generics?,An Unbounded Type Parameter in Java Generics is a type parameter without any specific upper bound.
+Generics,Easy,What is Generic Method Inheritance in Java?,Generic Method Inheritance in Java allows subtypes to inherit generic methods with their original type parameters.
+Generics,Easy,What is a Raw Type and its usage in Java Generics?,"A Raw Type is a generic type used without specifying any type arguments, typically in legacy code."
+Generics,Easy,What is a Generic Inheritance Hierarchy in Java?,Generic Inheritance Hierarchy in Java refers to the inheritance relationships between generic classes and interfaces.
+Generics,Easy,What is a Covariant Type in Java Generics?,A Covariant Type in Java Generics is a type that preserves the subtype relationship when using generic classes or interfaces.
+Generics,Easy,What is a Generic Class with Multiple Type Parameters in Java?,A Generic Class with Multiple Type Parameters in Java is a class that can operate on multiple types simultaneously using type parameters.
+Generics,Easy,What is a Generic Type with Recursive Bounds in Java?,"A Generic Type with Recursive Bounds in Java is a type parameter that is defined in terms of itself, creating recursive constraints."
+Generics,Easy,What is a Generic Type with Abstract Class Implementation in Java?,A Generic Type with Abstract Class Implementation in Java is a generic class that extends or implements an abstract class.
+Generics,Easy,What is a Generic Type with Enum in Java?,A Generic Type with Enum in Java is a generic class or interface that uses an enumeration type as a type parameter.
+Generics,Easy,What is a Generic Method with Wildcard in Java?,A Generic Method with Wildcard in Java is a method that uses a wildcard as a type argument to accept different types.
+Generics,Easy,What is a Generic Method with Type Variable in Java?,A Generic Method with Type Variable in Java is a method that introduces its own type parameter to be used within the method.
+Generics,Easy,What is a Generic Type with Type Parameter in Java?,A Generic Type with Type Parameter in Java is a class or interface that takes another generic type as its type argument.
+Generics,Easy,What is a Generic Class with Multiple Bounds in Java?,A Generic Class with Multiple Bounds in Java is a class that restricts its type parameter to be a subtype of multiple types.
+Generics,Easy,What is a Generic Class with Bridge Method in Java?,A Generic Class with Bridge Method in Java is a class that generates a bridge method to ensure type safety when overriding generic methods.
+Generics,Easy,What is a Generic Type with Type Inference in Java?,A Generic Type with Type Inference in Java allows the compiler to infer the type argument based on the context and method arguments.
+Generics,Easy,What is a Generic Type with Recursive Type Inference in Java?,A Generic Type with Recursive Type Inference in Java is a situation where type inference is performed recursively on nested generic types.
+Generics,Easy,What is a Generic Type with Diamond Operator in Java?,"A Generic Type with Diamond Operator in Java allows the compiler to infer the type arguments based on the declaration context, using <> instead of specifying them explicitly."
+Generics,Easy,What is a Generic Type with Static Type Checking in Java?,A Generic Type with Static Type Checking in Java ensures type safety at compile-time by performing type checks on generic classes and interfaces.
+Generics,Easy,What is a Generic Type with Static Polymorphism in Java?,A Generic Type with Static Polymorphism in Java refers to the ability to invoke generic methods based on the compile-time type of the arguments.
+Generics,Easy,What is a Generic Type with Dynamic Polymorphism in Java?,A Generic Type with Dynamic Polymorphism in Java allows objects of different parameterized types to be assigned to a generic reference and exhibit polymorphic behavior.
+Generics,Easy,What is a Generic Type with Type Erasure in Java?,A Generic Type with Type Erasure in Java is a type that loses its generic type information during compilation and is replaced with its upper bound or Object.
+Generics,Easy,What is a Generic Type with Reflection in Java?,A Generic Type with Reflection in Java allows inspection and manipulation of generic types at runtime using reflection APIs.
+Generics,Easy,What is a Generic Type with Annotation in Java?,A Generic Type with Annotation in Java is a generic class or interface that is annotated with custom annotations for additional metadata or behavior.
+Generics,Easy,What is a Generic Type with Exception Handling in Java?,A Generic Type with Exception Handling in Java allows catching and handling exceptions specific to the type parameter of a generic class or method.
+Generics,Easy,What is a Generic Type with Serialization in Java?,A Generic Type with Serialization in Java allows objects of a generic type to be serialized and deserialized using the Java Serialization API.
+Generics,Easy,What is a Generic Type with Lambda Expression in Java?,A Generic Type with Lambda Expression in Java allows the use of lambda expressions to define behavior for generic classes or interfaces.
+Generics,Easy,What is a Generic Type with Stream API in Java?,A Generic Type with Stream API in Java allows the use of stream operations and functional programming on collections of generic objects.
+Generics,Medium,What is the difference between wildcard and type parameter?,"Wildcards (?) are used to represent unknown types, while type parameters (T) are placeholders for types."
+Generics,Medium,What is a Bounded Type Parameter in Java Generics?,A bounded type parameter specifies a constraint on the types that can be used as arguments for the parameter.
+Generics,Medium,What is a Generic Method in Java?,A generic method is a method that introduces its own type parameter(s) and can operate on different types.
+Generics,Medium,What is a Raw Type in Java Generics?,A raw type is a generic type used without specifying its type arguments.
+Generics,Medium,What is a Type Argument in Java Generics?,A type argument is a specific type used to instantiate a generic class or invoke a generic method.
+Generics,Medium,What is a Generic Constructor in Java?,A generic constructor is a constructor that introduces its own type parameter(s) and can create objects of different types.
+Generics,Medium,What is a Generic Type in Java?,A generic type is a class or interface that has one or more type parameters to represent unspecified types.
+Generics,Medium,What is a Type Bound in Java Generics?,A type bound specifies the upper limit or constraint on the types that can be used as type arguments.
+Generics,Medium,What is a Generic Type Inference in Java?,Generic type inference allows the compiler to automatically determine the type arguments based on the context.
+Generics,Medium,What is a Wildcard Capture in Java Generics?,Wildcard capture refers to the process of inferring the specific type when using a wildcard in a generic method or class.
+Generics,Medium,What is a Generic Array in Java?,A generic array is an array whose component type is a type parameter or contains a type parameter.
+Generics,Medium,What is a Diamond Operator in Java Generics?,The diamond operator (<>) allows the compiler to infer the type arguments based on the assignment context.
+Generics,Medium,What is a Generic Enumeration in Java?,A generic enumeration is an enumeration type that can have type parameters and be used with generics.
+Generics,Medium,What is a Generic Type Intersection in Java?,A generic type intersection represents a type that is a common supertype of multiple types.
+Generics,Medium,What is a Generic Type Conversion in Java?,A generic type conversion is the process of converting an object of a generic type to another compatible type.
+Generics,Medium,What is Type Erasure and its limitations in Java Generics?,"Type erasure is the process of removing generic type information at compile time, which limits runtime type checking and access to type-specific information."
+Generics,Medium,What is a Contravariant Type in Java Generics?,A contravariant type is a type that can be used as an argument in a generic class or method.
+Generics,Medium,What is a Generic Interface with Multiple Type Parameters?,A generic interface with multiple type parameters is an interface that defines multiple type parameters for generic classes or methods.
+Generics,Medium,What is a Generic Interface with a Generic Type Parameter?,A generic interface with a generic type parameter is an interface that uses a type parameter itself as a type argument in its definition.
+Generics,Medium,What is a Generic Type with Static Members in Java?,A generic type with static members is a generic class or interface that defines static fields or methods.
+Generics,Medium,What is a Generic Type with Wildcard?,A generic type with a wildcard is a class or interface that uses a wildcard as a type argument for flexibility in type acceptance.
+Generics,Medium,What is a Generic Class with Wildcard?,A generic class with a wildcard is a class that can accept any type or a specific range of types using a wildcard as a type argument.
+Generics,Medium,What is a Generic Class with Type Variable?,A generic class with a type variable is a class that uses a type parameter as a placeholder for different types.
+Generics,Medium,What is a Generic Type with Multiple Bounds?,A generic type with multiple bounds is a class or interface that specifies multiple upper bounds for its type parameter.
+Generics,Medium,What is a Generic Interface with Multiple Bounds?,A generic interface with multiple bounds is an interface that specifies multiple upper bounds for the type parameter of its implementing classes.
+Generics,Medium,What is a Generic Interface with Bridge Method?,A generic interface with a bridge method is an interface that includes a bridge method to ensure type safety when using type erasure.
+Generics,Medium,What is a Generic Class with Type Inference?,A generic class with type inference allows the compiler to infer the type arguments based on the constructor arguments.
+Generics,Medium,What is a Generic Class with Recursive Type Inference?,A generic class with recursive type inference allows the compiler to infer the type arguments recursively based on the constructor arguments.
+Generics,Medium,What is a Generic Class with Diamond Operator?,A generic class with the diamond operator allows the compiler to infer the type arguments based on the instantiation context.
+Generics,Medium,What is a Generic Class with Static Type Checking?,A generic class with static type checking ensures type safety at compile time by performing type checks on generic types.
+Generics,Medium,What is a Generic Class with Static Polymorphism?,A generic class with static polymorphism allows the compiler to bind the appropriate generic method based on the static type of the argument.
+Generics,Medium,What is a Generic Class with Dynamic Polymorphism?,A generic class with dynamic polymorphism allows the runtime type of the object to determine the specific generic method to be invoked.
+Generics,Medium,What is a Generic Class with Type Erasure?,A generic class with type erasure is a generic class that loses its generic type information during compilation and is replaced by raw types.
+Generics,Medium,What is a Generic Class with Reflection?,A generic class with reflection allows for runtime inspection and manipulation of the generic type information.
+Generics,Medium,What is a Generic Class with Annotation?,A generic class with annotations is a generic class that can be annotated with metadata for additional information or processing.
+Generics,Medium,What is a Generic Class with Exception Handling?,A generic class with exception handling allows for handling exceptions specific to the generic type it operates on.
+Generics,Medium,What is a Generic Class with Serialization?,A generic class with serialization enables the generic objects to be serialized and deserialized.
+Generics,Medium,What is a Generic Class with Lambda Expression?,A generic class with lambda expressions allows the usage of lambda expressions with generic types.
+Generics,Medium,What is a Generic Class with Stream API?,A generic class with Stream API enables the processing of streams of generic objects with various operations and transformations.
+Generics,Hard,What is a Covariant return type in Java Generics?,A covariant return type allows a subclass to override a method with a more specific return type.
+Generics,Hard,What is Type Erasure in Java Generics?,Type erasure is the process of removing generic type information at compile time and replacing it with raw types.
+Generics,Hard,What is a Recursive type bound in Java Generics?,"A recursive type bound is a type bound that refers to the type being defined, creating a self-referential constraint."
+Generics,Hard,What is Type inference in Java Generics?,Type inference allows the compiler to automatically determine the type arguments based on the context.
+Generics,Hard,What is an Unbounded wildcard in Java Generics?,An unbounded wildcard (?) represents an unknown type and allows any type to be used as an argument.
+Generics,Hard,What is a Bounded Wildcard in Java Generics?,A bounded wildcard (? extends T or ? super T) restricts the types that can be used as arguments.
+Generics,Hard,What is a Recursive Generic Type in Java Generics?,A recursive generic type is a generic type that refers to itself in its type parameter declaration.
+Generics,Hard,What is a self-bounded type parameter in Java Generics?,"A self-bounded type parameter is a type parameter that bounds itself, enforcing a relationship between types."
+Generics,Hard,What is a Bridge Method in Java Generics?,A bridge method is a synthetic method generated by the compiler to ensure type safety when using type erasure.
+Generics,Hard,What is a Type Token in Java Generics?,"A type token is an instance of a class that carries type information at runtime, used to overcome type erasure."
+Generics,Hard,What is a Raw Type in Java Generics?,"A raw type is a generic type used without specifying its type arguments, effectively bypassing type safety."
+Generics,Hard,What is a Reifiable Type in Java Generics?,A reifiable type is a type that retains its type information at runtime and can be fully inspected and manipulated.
+Generics,Hard,What is a Generic Lambda Expression in Java?,A generic lambda expression is a lambda expression that can operate on different types using type inference.
+Generics,Hard,What is a Generic Class Inheritance in Java?,Generic class inheritance refers to the inheritance relationship between generic classes and their subclasses.
+Generics,Hard,What is a Generic Type Union in Java?,"A generic type union is the combination of multiple types into a single generic type using the """
+Generics,Hard,What is a Generic Constructor Inheritance in Java?,Generic constructor inheritance refers to the inheritance relationship between generic classes and their constructors.
+Generics,Hard,What is a Generic Type Relationship in Java?,"Generic type relationship refers to the relationship between generic types, such as inheritance or type bounds."
+Generics,Hard,What is a Generic Method with Multiple Type Parameters?,A generic method with multiple type parameters introduces multiple type parameters for type inference and usage.
+Generics,Hard,What is a Recursive Type Parameter Bounds in Java Generics?,"Recursive type parameter bounds are type bounds that refer to the type parameter itself, creating self-referential constraints."
+Generics,Hard,What is a Generic Type with Inherited Type Parameters?,A generic type with inherited type parameters inherits the type parameters from its superclass or interface.
+Generics,Hard,What is a Generic Type with Non-Reifiable Types?,A generic type with non-reifiable types has type parameters that cannot be fully verified at runtime due to erasure.
+Generics,Hard,What is a Generic Type with Type Variable in Java?,A generic type with a type variable represents a type that is determined at the time of object creation.
+Generics,Hard,What is a Generic Interface with Wildcard in Java?,A generic interface with a wildcard allows flexibility in accepting different types as arguments or parameters.
+Generics,Hard,What is a Generic Interface with Type Variable in Java?,A generic interface with a type variable defines an interface with a generic type parameter for flexibility.
+Generics,Hard,What is a Generic Method with Multiple Bounds in Java?,A generic method with multiple bounds imposes constraints on the type arguments by specifying multiple upper bounds.
+Generics,Hard,What is a Generic Method with Bridge Method in Java?,A generic method with a bridge method is a method generated to ensure type safety when using type erasure.
+Generics,Hard,What is a Generic Type with Bridge Method in Java?,A generic type with a bridge method is a class or interface that includes a bridge method to ensure type safety.
+Generics,Hard,What is a Generic Interface with Type Inference in Java?,A generic interface with type inference allows the compiler to infer the type arguments based on the usage context.
+Generics,Hard,What is a Generic Interface with Recursive Type Inference?,A generic interface with recursive type inference allows the compiler to infer type arguments recursively.
+Generics,Hard,What is a Generic Interface with Diamond Operator in Java?,A generic interface with the diamond operator allows the compiler to infer the type arguments based on the context.
+Generics,Hard,What is a Generic Interface with Static Type Checking?,A generic interface with static type checking performs type checks on generic types at compile time for type safety.
+Generics,Hard,What is a Generic Interface with Static Polymorphism?,A generic interface with static polymorphism allows the compiler to bind the appropriate generic method based on the static type of the argument.
+Generics,Hard,What is a Generic Interface with Dynamic Polymorphism?,A generic interface with dynamic polymorphism allows the runtime type of the object to determine the specific generic method to be invoked.
+Generics,Hard,What is a Generic Interface with Type Erasure in Java?,A generic interface with type erasure is an interface that loses its generic type information during compilation and is replaced by raw types.
+Generics,Hard,What is a Generic Interface with Reflection in Java?,A generic interface with reflection allows for runtime inspection and manipulation of the generic type information of an interface.
+Generics,Hard,What is a Generic Interface with Annotation in Java?,"A generic interface with annotation is an interface with metadata attached to it, providing additional information or processing."
+Generics,Hard,What is a Generic Interface with Exception Handling in Java?,A generic interface with exception handling defines how exceptions specific to the generic type are handled.
+Generics,Hard,What is a Generic Interface with Serialization in Java?,A generic interface with serialization allows the generic objects to be serialized and deserialized.
+Generics,Hard,What is a Generic Interface with Lambda Expression in Java?,A generic interface with lambda expressions allows the usage of lambda expressions with generic types.
+Generics,Hard,What is a Generic Interface with Stream API in Java?,A generic interface with Stream API enables the processing of streams of generic objects with various operations and transformations.

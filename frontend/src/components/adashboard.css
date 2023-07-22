@@ -1,0 +1,126 @@
+
+  .adashboard-container {
+    display: flex;
+    height: 50vh;
+    overflow: hidden; /* Prevent vertical scrolling */
+  }
+  
+  .adashboard-content {
+    flex: 1;
+    padding: 2px;
+    transition: margin-left 0.3s ease-in-out;
+    position: absolute; /* Change position to relative */
+    top: 60%; /* Change top position to 0 */
+    left: 27%; /* Change left position to 0 */
+    height: 50%; /* Set height to 100% */
+    overflow: auto; /* Add overflow auto to enable scrolling within the content */
+  }
+  .m img {
+    width: 20%;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .sidebar-visible .adashboard-content {
+    margin-left: 200px;
+  }
+ 
+  .m {
+    position: relative;
+    text-align: center;
+  }
+  
+  .m p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .bp1 {
+    display: block;
+    width: 150px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #1a365d;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+  }
+  
+  .bp1:hover {
+    background-color: #97a1b1;
+  }
+  .sidebar-toggle{
+    position:absolute;
+    left:1%;
+    top:3%;
+  }
+
+
+
+  .u{
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px -10px #2d3748;
+    margin: 20px;
+    transition: transform 0.3s;
+    position: absolute;
+    left:20%;
+    top:10%;
+  }
+  
+  .q{
+    text-align: center;
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px -10px #2d3748;
+    margin: 20px;
+    transition: transform 0.3s;
+    position: absolute;
+    left:45%;
+    top:10%;
+  }
+  
+  .u:hover, .q:hover {
+    transform: scale(1.05);
+  }
+  
+  .u h1, .q h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .bu, .bq {
+    display: block;
+    width: 150px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #1a365d;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .bu:hover, .bq:hover {
+    background-color: #97a1b1;
+  }

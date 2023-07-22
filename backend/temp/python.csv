@@ -1,0 +1,13 @@
+﻿Topic,Difficulty,Question,Answer
+Data Types,Easy,What are the basic data types in Python?,"The basic data types in Python include integers, floats, strings, booleans, and None."
+Data Types,Easy,How do you convert a string to an integer in Python?,"Use the int() function: num = int(""123"")"
+Data Types,Medium,What is the difference between a list and a tuple in Python?,A list is mutable (can be changed) while a tuple is immutable (cannot be changed).
+Data Types,Medium,What is the difference between = and == in Python?,"= is used to assign a value to a variable, while == is used to compare two values for equality."
+Control Flow,Easy,What is the syntax for an if statement in Python?,if condition:
+Control Flow,Easy,What is the syntax for a for loop in Python?,for variable in iterable:
+Control Flow,Medium,What is the difference between break and continue in Python?,"break terminates the loop immediately, while continue skips the current iteration and continues with the next iteration."
+Control Flow,Hard,What is a generator function in Python?,"A generator function is a function that uses the yield keyword to return a generator object, which can be iterated over to produce a sequence of values without creating a list."
+Functions,Easy,What is the syntax for defining a function in Python?,"def function_name(parameter1, parameter2):"
+Functions,Easy,How do you call a function in Python?,"function_name(argument1, argument2)"
+Functions,Medium,What is a lambda function in Python?,"A lambda function is an anonymous function that can be defined in a single line of code. It is useful for creating small, one-time use functions."
+Functions,Medium,What is the difference between return and print in Python?,"return is used to return a value from a function, while print is used to display a value on the screen."
