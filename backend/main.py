@@ -13,11 +13,11 @@ import random
 import csv
 import os
 import asyncio
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-import tensorflow as tf
-from transformers import AutoTokenizer, AutoModel
-import torch
+# from sklearn.feature_extraction.text import TfidfVectorizer
+# from sklearn.metrics.pairwise import cosine_similarity
+# import tensorflow as tf
+# from transformers import AutoTokenizer, AutoModel
+# import torch
 from sentence_transformers import SentenceTransformer,util
 import spacy
 import numpy as np

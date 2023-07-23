@@ -1,0 +1,14 @@
+fastapi
+motor
+uvicorn
+pymongo
+cors
+passlib
+bcrypt
+python-jose
+redis
+pyjwt
+python-multipart
+pydantic
+sentence-transformers
+spacy
