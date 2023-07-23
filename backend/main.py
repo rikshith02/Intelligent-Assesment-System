@@ -19,7 +19,7 @@ import asyncio
 # from transformers import AutoTokenizer, AutoModel
 # import torch
 from sentence_transformers import SentenceTransformer,util
-import spacy
+# import spacy
 import numpy as np
 from pymongo import MongoClient
 

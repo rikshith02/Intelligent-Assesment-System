@@ -11,4 +11,3 @@ pyjwt
 python-multipart
 pydantic
 sentence-transformers
-spacy
